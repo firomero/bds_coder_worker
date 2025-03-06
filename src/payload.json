@@ -1,0 +1,7 @@
+{
+    "s3Key": "s3://my-bucket/my-key",
+    "filename": "myfile.wma",
+    "fileId": "1234",
+    "status": "converted|failed|in-progress",
+    "errorMessage": "error message"
+}

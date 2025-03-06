@@ -1,0 +1,33 @@
+{
+  "name": "bds_coder_worker",
+  "version": "1.0.0",
+  "description": "BDS Transcoder for radio station",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firomero/bds_coder_worker.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "queue",
+    "coder"
+  ],
+  "author": "felix <firomerorom4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firomero/bds_coder_worker/issues"
+  },
+  "homepage": "https://github.com/firomero/bds_coder_worker#readme",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.15",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7",
+    "fluent-ffmpeg": "^2.1.3",
+    "mqtt": "^5.10.4"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  bds-processor:
+    container_name: bds_worker_container
+    build:
+      context: .
+    image: bds_worker_image
+    env_file:
+      - .env
+    volumes:
+      - ./:/usr/src/app  # Mount a volume for file storage
+      - /usr/src/app/node_modules  # Mount a volume for node_modules
